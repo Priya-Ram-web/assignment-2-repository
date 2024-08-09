@@ -1,0 +1,108 @@
+@media screen and (max-width:576px) {
+    /* nav bar responsive */
+    .nav-menu{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+         width: 353px;
+         height: 43px;
+         left: 20px;
+         padding: 0px;
+         margin-left: 28px;
+    }
+    .nav-menu{
+        font-size: x-large;
+    }
+    /* banner er text responsive */
+    .banner-text h1{
+        width: 285px;
+        height: 129px;
+        font-size: 45px;
+        margin-left: 30px;
+    }
+    .banner-text p{
+        width: 285px;
+        height: 129px;
+        font-size: 19px;
+        margin-left: 30px;
+        line-height: 24px;
+        margin-top: 60px;
+    }
+    /* banner btn responsive */
+    .btn-responsive button{
+        width: 180px;
+        height: 54px;
+        margin-right: 28px;
+        padding: 0%;
+    }
+    .club{
+        display: none;
+    }
+    .btn-responsive{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin: 25px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-image {
+        padding: 20px;
+    }
+    /* badge responsive */
+    #badge{
+        width: 145px;
+        height: 74px;
+        left: 220px;
+        top: 50px;
+    }
+    #badge-500{
+        font-size: 30.24px;
+    }
+    #badge-350{
+        width: 145px;
+        height: 74px;
+        left: 20px;
+        top: 300px;
+    }
+    #badge-video{
+        font-size: 18.14px;
+    }
+    #badge-workout{
+        font-size: 10px;
+    }
+    #circle{
+        background: rgb(230, 83, 60);
+        border-radius:40px;
+        width: 40px;
+        height: 20px;
+    }
+    /* habits section  */
+    .habits-text{
+        margin-left: 20px;
+        width: 380px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .habits-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-images{
+        margin-left: 28px;
+        width: 231px;
+        height: 274px;
+        margin-left: 90px;
+        margin-bottom: 120px;
+    }
+    .habits-images img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 19px;
+    }
+}
