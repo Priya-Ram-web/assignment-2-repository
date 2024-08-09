@@ -213,3 +213,36 @@ body{
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px rgb(40, 39, 39);
 }
+/* run section styling */
+.run-section{
+    display: flex;
+    border: 2px solid tomato;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 1060px;
+    height: 371px;
+    padding: 32px; 
+}
+.run-text{
+    width: 300px;
+    height: 289px;
+}
+.run-text h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.run-text p{
+    width: 443px;
+height: 72px;
+text-align: left;
+margin-bottom: 34px;
+}
+.run-img{
+width: 366px;
+height: 312px;
+border: 2px solid green;
+border-radius: 18px;
+background-image: url('./images/run.jpg');
+background-repeat: no-repeat;
+}
