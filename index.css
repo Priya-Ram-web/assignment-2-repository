@@ -246,3 +246,40 @@ border-radius: 18px;
 background-image: url('./images/run.jpg');
 background-repeat: no-repeat;
 }
+.run-section-1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    width: 1060px;
+    height: 800px;
+    padding: 32px; 
+    margin-top: 100px
+}
+.run-text-1{
+    margin-top: 10px;
+    font-size: 30px ;
+    font-weight: 500;
+
+}
+.paragraph-1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.exercise-image{
+    width: Fill (1,060px)px;
+height: Fill (201.5px)px;
+gap: 0px;
+opacity: 0px;
+
+}
+.row{
+    height: 400px;
+    display: flex;
+    margin:5px ;
+    margin-bottom: 5px;
+    
+}
+.image-1{
+    background-color: aquamarine;
+}
