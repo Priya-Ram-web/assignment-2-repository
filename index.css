@@ -262,86 +262,55 @@ background-repeat: no-repeat;
     font-weight: 500;
 
 }
-
-.exercise{
-
+.title h1{
+    text-align: center;
+    margin: auto;
 }
+.exercise{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    width: 1060px;
+    height: 900px;
+    padding: 32px; 
+    margin-top: 100px
+}
+
+
+
+
+
+
+
+
+
 
 
 .single-image-1{
-        width:47%;
-        color: azure;
-    }
-    .single-image-1 img{
-        width: 50%;
-
-
+    background-image: url(./images/trainer1.png);
+    height: 272px;
+    width: 500px;
+    border-radius: 18px;
 }
 .single-image-2{
-    width:50%;
-    color: azure;
-}
-.single-image-2 img{
-    width: 100%;
-    height: 200px;
 
-
+    background-image: url(./images/trainer2.png);
+    height: 272px;
+    width: 500px;
+    border-radius: 18px;
 }
 .single-image-3{
-    width:47%;
-    color: azure;
-}
-.single-image-3 img{
-    width: 50%;
-}
-.single-image-4{
-    width:47%;
-    color: azure;
-}
-.single-image-4 img{
-    width: 100%;
-    height: 150px;
-}
-.single-image-5{
-    width:47%;
-    color: azure;
-}
-.single-image-5 img{
-    width: 50%;
+    background-image: url(./images/trainer3.png);
 
+    width: 326.67px;
+    height: 250px;
+    gap: 0px;
+    border-radius: 18px ;
+    opacity: 0px;
+    
 
 }
-.single-image-6{
-    width:47%;
-    color: azure;
-}
-.single-image-6 img{
-    width: 50%;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
