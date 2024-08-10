@@ -267,7 +267,7 @@ background-repeat: no-repeat;
     margin: auto;
 }
 .exercise{
-    display: flex;
+    
     border: 2px solid black;
     justify-content: space-between;
     background-color: black;
@@ -289,28 +289,60 @@ background-repeat: no-repeat;
 
 .single-image-1{
     background-image: url(./images/trainer1.png);
-    height: 272px;
+    background-repeat: no-repeat;
+    height: 274px;
     width: 500px;
     border-radius: 18px;
 }
 .single-image-2{
 
     background-image: url(./images/trainer2.png);
+    background-repeat: no-repeat;
     height: 272px;
     width: 500px;
     border-radius: 18px;
+    gap: 5px;
 }
+
+
+
+
+
 .single-image-3{
     background-image: url(./images/trainer3.png);
-
-    width: 326.67px;
-    height: 250px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height:300px;
     gap: 0px;
     border-radius: 18px ;
     opacity: 0px;
     
 
 }
+.single-image-4{
+
+    background-image: url(./images/trainer4.png);
+    background-repeat: no-repeat;
+    height: 272px;
+    width: 500px;
+    border-radius: 18px;
+}
+.single-image-5{
+    background-image: url(./images/trainer5.png);
+    background-repeat: no-repeat;
+    height: 272px;
+    width: 500px;
+    border-radius: 18px;
+}
+.single-image-6{
+    background-image: url(./images/trainer6.png);
+    background-repeat: no-repeat;
+    height: 272px;
+    width: 500px;
+    border-radius: 18px;
+}
+
+
 
 
 
